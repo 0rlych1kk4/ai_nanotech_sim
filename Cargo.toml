@@ -1,0 +1,12 @@
+[package]
+name = "ai_nanotech_sim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+rand = "0.8"
+ndarray = "0.15"
+smartcore = "0.3"
+futures = "0.3"
+
